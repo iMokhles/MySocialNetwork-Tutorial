@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C5ED271F3F87FD002DB9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C5ED261F3F87FD002DB9DB /* main.m */; };
+		43C5ED2A1F3F87FD002DB9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C5ED291F3F87FD002DB9DB /* AppDelegate.m */; };
+		43C5ED2D1F3F87FD002DB9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C5ED2C1F3F87FD002DB9DB /* ViewController.m */; };
+		43C5ED301F3F87FD002DB9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C5ED2E1F3F87FD002DB9DB /* Main.storyboard */; };
+		43C5ED321F3F87FD002DB9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C5ED311F3F87FD002DB9DB /* Assets.xcassets */; };
+		43C5ED351F3F87FD002DB9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C5ED331F3F87FD002DB9DB /* LaunchScreen.storyboard */; };
+		43C5ED3D1F3F8EC7002DB9DB /* AppBg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C5ED3C1F3F8EC7002DB9DB /* AppBg2.png */; };
+		43C5ED401F3F9DA9002DB9DB /* MSNSignupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C5ED3F1F3F9DA9002DB9DB /* MSNSignupVC.m */; };
+		43C5ED441F3FA1DB002DB9DB /* MSNHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C5ED431F3FA1DB002DB9DB /* MSNHelper.m */; };
+		43C5ED471F3FA425002DB9DB /* MSNLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C5ED461F3FA425002DB9DB /* MSNLoginVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43C5ED221F3F87FD002DB9DB /* MySocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C5ED261F3F87FD002DB9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43C5ED281F3F87FD002DB9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43C5ED291F3F87FD002DB9DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43C5ED2B1F3F87FD002DB9DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43C5ED2C1F3F87FD002DB9DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43C5ED2F1F3F87FD002DB9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43C5ED311F3F87FD002DB9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43C5ED341F3F87FD002DB9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43C5ED361F3F87FD002DB9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C5ED3C1F3F8EC7002DB9DB /* AppBg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBg2.png; sourceTree = "<group>"; };
+		43C5ED3E1F3F9DA9002DB9DB /* MSNSignupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNSignupVC.h; sourceTree = "<group>"; };
+		43C5ED3F1F3F9DA9002DB9DB /* MSNSignupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNSignupVC.m; sourceTree = "<group>"; };
+		43C5ED421F3FA1DB002DB9DB /* MSNHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNHelper.h; sourceTree = "<group>"; };
+		43C5ED431F3FA1DB002DB9DB /* MSNHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNHelper.m; sourceTree = "<group>"; };
+		43C5ED451F3FA425002DB9DB /* MSNLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNLoginVC.h; sourceTree = "<group>"; };
+		43C5ED461F3FA425002DB9DB /* MSNLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNLoginVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C5ED1F1F3F87FD002DB9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C5ED191F3F87FD002DB9DB = {
+			isa = PBXGroup;
+			children = (
+				43C5ED241F3F87FD002DB9DB /* MySocialNetwork */,
+				43C5ED231F3F87FD002DB9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C5ED231F3F87FD002DB9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C5ED221F3F87FD002DB9DB /* MySocialNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C5ED241F3F87FD002DB9DB /* MySocialNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				43C5ED281F3F87FD002DB9DB /* AppDelegate.h */,
+				43C5ED291F3F87FD002DB9DB /* AppDelegate.m */,
+				43C5ED411F3F9DB5002DB9DB /* AuthenticationVCs */,
+				43C5ED2E1F3F87FD002DB9DB /* Main.storyboard */,
+				43C5ED311F3F87FD002DB9DB /* Assets.xcassets */,
+				43C5ED331F3F87FD002DB9DB /* LaunchScreen.storyboard */,
+				43C5ED361F3F87FD002DB9DB /* Info.plist */,
+				43C5ED251F3F87FD002DB9DB /* Supporting Files */,
+				43C5ED421F3FA1DB002DB9DB /* MSNHelper.h */,
+				43C5ED431F3FA1DB002DB9DB /* MSNHelper.m */,
+			);
+			path = MySocialNetwork;
+			sourceTree = "<group>";
+		};
+		43C5ED251F3F87FD002DB9DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C5ED3C1F3F8EC7002DB9DB /* AppBg2.png */,
+				43C5ED261F3F87FD002DB9DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43C5ED411F3F9DB5002DB9DB /* AuthenticationVCs */ = {
+			isa = PBXGroup;
+			children = (
+				43C5ED2B1F3F87FD002DB9DB /* ViewController.h */,
+				43C5ED2C1F3F87FD002DB9DB /* ViewController.m */,
+				43C5ED3E1F3F9DA9002DB9DB /* MSNSignupVC.h */,
+				43C5ED3F1F3F9DA9002DB9DB /* MSNSignupVC.m */,
+				43C5ED451F3FA425002DB9DB /* MSNLoginVC.h */,
+				43C5ED461F3FA425002DB9DB /* MSNLoginVC.m */,
+			);
+			name = AuthenticationVCs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C5ED211F3F87FD002DB9DB /* MySocialNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C5ED391F3F87FD002DB9DB /* Build configuration list for PBXNativeTarget "MySocialNetwork" */;
+			buildPhases = (
+				43C5ED1E1F3F87FD002DB9DB /* Sources */,
+				43C5ED1F1F3F87FD002DB9DB /* Frameworks */,
+				43C5ED201F3F87FD002DB9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySocialNetwork;
+			productName = MySocialNetwork;
+			productReference = 43C5ED221F3F87FD002DB9DB /* MySocialNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C5ED1A1F3F87FD002DB9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iMokhles;
+				TargetAttributes = {
+					43C5ED211F3F87FD002DB9DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4XPY84P8QQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 43C5ED1D1F3F87FD002DB9DB /* Build configuration list for PBXProject "MySocialNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C5ED191F3F87FD002DB9DB;
+			productRefGroup = 43C5ED231F3F87FD002DB9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C5ED211F3F87FD002DB9DB /* MySocialNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C5ED201F3F87FD002DB9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C5ED351F3F87FD002DB9DB /* LaunchScreen.storyboard in Resources */,
+				43C5ED3D1F3F8EC7002DB9DB /* AppBg2.png in Resources */,
+				43C5ED321F3F87FD002DB9DB /* Assets.xcassets in Resources */,
+				43C5ED301F3F87FD002DB9DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C5ED1E1F3F87FD002DB9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C5ED2D1F3F87FD002DB9DB /* ViewController.m in Sources */,
+				43C5ED401F3F9DA9002DB9DB /* MSNSignupVC.m in Sources */,
+				43C5ED2A1F3F87FD002DB9DB /* AppDelegate.m in Sources */,
+				43C5ED441F3FA1DB002DB9DB /* MSNHelper.m in Sources */,
+				43C5ED271F3F87FD002DB9DB /* main.m in Sources */,
+				43C5ED471F3FA425002DB9DB /* MSNLoginVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43C5ED2E1F3F87FD002DB9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C5ED2F1F3F87FD002DB9DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43C5ED331F3F87FD002DB9DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C5ED341F3F87FD002DB9DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C5ED371F3F87FD002DB9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43C5ED381F3F87FD002DB9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C5ED3A1F3F87FD002DB9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XPY84P8QQ;
+				INFOPLIST_FILE = MySocialNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.MySocialNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43C5ED3B1F3F87FD002DB9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XPY84P8QQ;
+				INFOPLIST_FILE = MySocialNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.MySocialNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C5ED1D1F3F87FD002DB9DB /* Build configuration list for PBXProject "MySocialNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C5ED371F3F87FD002DB9DB /* Debug */,
+				43C5ED381F3F87FD002DB9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C5ED391F3F87FD002DB9DB /* Build configuration list for PBXNativeTarget "MySocialNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C5ED3A1F3F87FD002DB9DB /* Debug */,
+				43C5ED3B1F3F87FD002DB9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C5ED1A1F3F87FD002DB9DB /* Project object */;
+}

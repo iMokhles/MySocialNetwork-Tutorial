@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="zXd-3r-ht5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyrights 2017, iMokhles, All rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9k0-p9-YCe">
+                                <rect key="frame" x="16" y="539" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QGN-lu-ETs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to MySocialNetwork Application, my first iOS application ever" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9B5-Sv-2JJ">
+                                <rect key="frame" x="16" y="209" width="288" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="1hf-Aq-3mZ"/>
+                                    <constraint firstAttribute="width" constant="288" id="CIz-Ah-dVn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zXd-3r-ht5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="12N-8I-HeQ"/>
+                            <constraint firstItem="9k0-p9-YCe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="1iE-Ow-Ve8"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="9k0-p9-YCe" secondAttribute="bottom" constant="8" id="2Z3-03-V5w"/>
+                            <constraint firstItem="9B5-Sv-2JJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4wB-is-ySY"/>
+                            <constraint firstAttribute="trailing" secondItem="9k0-p9-YCe" secondAttribute="trailing" constant="16" id="CMh-Fx-5Fo"/>
+                            <constraint firstItem="zXd-3r-ht5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FTo-Is-1by"/>
+                            <constraint firstAttribute="trailing" secondItem="zXd-3r-ht5" secondAttribute="trailing" id="HsW-bS-KFg"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="zXd-3r-ht5" secondAttribute="bottom" id="Msa-ne-a89"/>
+                            <constraint firstItem="9B5-Sv-2JJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="m3i-Sc-R9X"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26.25" y="373.94366197183098"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppBg2.png" width="360" height="640"/>
+    </resources>
+</document>
